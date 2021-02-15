@@ -3,16 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4E767825DB1249004C8406 /* NIOTLS in Frameworks */ = {isa = PBXBuildFile; productRef = 2E4E767725DB1249004C8406 /* NIOTLS */; };
+		2E4E767A25DB1249004C8406 /* NIOWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 2E4E767925DB1249004C8406 /* NIOWebSocket */; };
+		2E4E767C25DB1249004C8406 /* _NIO1APIShims in Frameworks */ = {isa = PBXBuildFile; productRef = 2E4E767B25DB1249004C8406 /* _NIO1APIShims */; };
+		2E4E767E25DB1249004C8406 /* NIOFoundationCompat in Frameworks */ = {isa = PBXBuildFile; productRef = 2E4E767D25DB1249004C8406 /* NIOFoundationCompat */; };
+		2E4E768025DB1249004C8406 /* NIOHTTP1 in Frameworks */ = {isa = PBXBuildFile; productRef = 2E4E767F25DB1249004C8406 /* NIOHTTP1 */; };
+		2E4E768225DB1249004C8406 /* NIOConcurrencyHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 2E4E768125DB1249004C8406 /* NIOConcurrencyHelpers */; };
+		2E4E768425DB1249004C8406 /* NIOTestUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 2E4E768325DB1249004C8406 /* NIOTestUtils */; };
+		2E4E768625DB1249004C8406 /* NIO in Frameworks */ = {isa = PBXBuildFile; productRef = 2E4E768525DB1249004C8406 /* NIO */; };
+		2E4E768C25DB126A004C8406 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 2E4E768B25DB126A004C8406 /* Logging */; };
+		2E4E769125DB129C004C8406 /* DogecoinPeerToPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E769025DB129C004C8406 /* DogecoinPeerToPeer.swift */; };
 		2E63960B25D9ACDA0012F2AC /* AvocadogeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */; };
 		2E63960D25D9ACDA0012F2AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63960C25D9ACDA0012F2AC /* ContentView.swift */; };
 		2E63960F25D9ACDB0012F2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63960E25D9ACDB0012F2AC /* Assets.xcassets */; };
 		2E63961225D9ACDB0012F2AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63961125D9ACDB0012F2AC /* Preview Assets.xcassets */; };
 		2E63961D25D9ACDB0012F2AC /* AvocadogeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63961C25D9ACDB0012F2AC /* AvocadogeTests.swift */; };
 		2E63962825D9ACDB0012F2AC /* AvocadogeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63962725D9ACDB0012F2AC /* AvocadogeUITests.swift */; };
+		2EDCEE7725DB31800050FA95 /* ClusterMembership in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDCEE7625DB31800050FA95 /* ClusterMembership */; };
+		2EDCEE7925DB31800050FA95 /* SWIM in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDCEE7825DB31800050FA95 /* SWIM */; };
+		2EDCEE8325DB32210050FA95 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEE8225DB32210050FA95 /* String+Extensions.swift */; };
+		2EDCEE8825DB32330050FA95 /* time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEE8725DB32330050FA95 /* time.swift */; };
+		2EDCEE8D25DB32580050FA95 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEE8C25DB32580050FA95 /* Coding.swift */; };
+		2EDCEE9225DB327B0050FA95 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEE9125DB327B0050FA95 /* Logging.swift */; };
+		2EDCEEA225DB32A80050FA95 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEEA125DB32A80050FA95 /* Message.swift */; };
+		2EDCEEA725DB32BA0050FA95 /* NIOPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEEA625DB32BA0050FA95 /* NIOPeer.swift */; };
+		2EDCEEAC25DB32CA0050FA95 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEEAB25DB32CA0050FA95 /* Settings.swift */; };
+		2EDCEEB125DB32DD0050FA95 /* SWIMNIOHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEEB025DB32DD0050FA95 /* SWIMNIOHandler.swift */; };
+		2EDCEEB625DB32F20050FA95 /* SWIMNIOShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEEB525DB32F20050FA95 /* SWIMNIOShell.swift */; };
+		2EDCEEC125DB33560050FA95 /* DogeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCEEC025DB33560050FA95 /* DogeNode.swift */; };
+		2EDCEEC725DB34930050FA95 /* LifecycleNIOCompat in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDCEEC625DB34930050FA95 /* LifecycleNIOCompat */; };
+		2EDCEEC925DB34930050FA95 /* Lifecycle in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDCEEC825DB34930050FA95 /* Lifecycle */; };
+		2EFE4F6925DB2E2800EE37D9 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 2EFE4F6825DB2E2800EE37D9 /* ArgumentParser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E4E769025DB129C004C8406 /* DogecoinPeerToPeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogecoinPeerToPeer.swift; sourceTree = "<group>"; };
 		2E63960725D9ACDA0012F2AC /* Avocadoge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocadoge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadogeApp.swift; sourceTree = "<group>"; };
 		2E63960C25D9ACDA0012F2AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +71,16 @@
 		2E63962325D9ACDB0012F2AC /* AvocadogeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvocadogeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E63962725D9ACDB0012F2AC /* AvocadogeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadogeUITests.swift; sourceTree = "<group>"; };
 		2E63962925D9ACDB0012F2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDCEE8225DB32210050FA95 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2EDCEE8725DB32330050FA95 /* time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time.swift; sourceTree = "<group>"; };
+		2EDCEE8C25DB32580050FA95 /* Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
+		2EDCEE9125DB327B0050FA95 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		2EDCEEA125DB32A80050FA95 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		2EDCEEA625DB32BA0050FA95 /* NIOPeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIOPeer.swift; sourceTree = "<group>"; };
+		2EDCEEAB25DB32CA0050FA95 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2EDCEEB025DB32DD0050FA95 /* SWIMNIOHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIMNIOHandler.swift; sourceTree = "<group>"; };
+		2EDCEEB525DB32F20050FA95 /* SWIMNIOShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIMNIOShell.swift; sourceTree = "<group>"; };
+		2EDCEEC025DB33560050FA95 /* DogeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +88,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4E768225DB1249004C8406 /* NIOConcurrencyHelpers in Frameworks */,
+				2E4E768425DB1249004C8406 /* NIOTestUtils in Frameworks */,
+				2E4E767C25DB1249004C8406 /* _NIO1APIShims in Frameworks */,
+				2E4E767A25DB1249004C8406 /* NIOWebSocket in Frameworks */,
+				2EDCEE7925DB31800050FA95 /* SWIM in Frameworks */,
+				2E4E768025DB1249004C8406 /* NIOHTTP1 in Frameworks */,
+				2EFE4F6925DB2E2800EE37D9 /* ArgumentParser in Frameworks */,
+				2E4E768C25DB126A004C8406 /* Logging in Frameworks */,
+				2E4E767E25DB1249004C8406 /* NIOFoundationCompat in Frameworks */,
+				2E4E767825DB1249004C8406 /* NIOTLS in Frameworks */,
+				2E4E768625DB1249004C8406 /* NIO in Frameworks */,
+				2EDCEEC725DB34930050FA95 /* LifecycleNIOCompat in Frameworks */,
+				2EDCEE7725DB31800050FA95 /* ClusterMembership in Frameworks */,
+				2EDCEEC925DB34930050FA95 /* Lifecycle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +145,14 @@
 		2E63960925D9ACDA0012F2AC /* Avocadoge */ = {
 			isa = PBXGroup;
 			children = (
+				2EDCEE8025DB31E60050FA95 /* SWIMNIO */,
+				2E63960E25D9ACDB0012F2AC /* Assets.xcassets */,
+				2E4E769025DB129C004C8406 /* DogecoinPeerToPeer.swift */,
+				2E63961325D9ACDB0012F2AC /* Info.plist */,
 				2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */,
 				2E63960C25D9ACDA0012F2AC /* ContentView.swift */,
-				2E63960E25D9ACDB0012F2AC /* Assets.xcassets */,
-				2E63961325D9ACDB0012F2AC /* Info.plist */,
 				2E63961025D9ACDB0012F2AC /* Preview Content */,
+				2EDCEEC025DB33560050FA95 /* DogeNode.swift */,
 			);
 			path = Avocadoge;
 			sourceTree = "<group>";
@@ -130,6 +183,30 @@
 			path = AvocadogeUITests;
 			sourceTree = "<group>";
 		};
+		2EDCEE8025DB31E60050FA95 /* SWIMNIO */ = {
+			isa = PBXGroup;
+			children = (
+				2EDCEE8125DB320F0050FA95 /* Utils */,
+				2EDCEE8C25DB32580050FA95 /* Coding.swift */,
+				2EDCEE9125DB327B0050FA95 /* Logging.swift */,
+				2EDCEEA125DB32A80050FA95 /* Message.swift */,
+				2EDCEEA625DB32BA0050FA95 /* NIOPeer.swift */,
+				2EDCEEAB25DB32CA0050FA95 /* Settings.swift */,
+				2EDCEEB025DB32DD0050FA95 /* SWIMNIOHandler.swift */,
+				2EDCEEB525DB32F20050FA95 /* SWIMNIOShell.swift */,
+			);
+			path = SWIMNIO;
+			sourceTree = "<group>";
+		};
+		2EDCEE8125DB320F0050FA95 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2EDCEE8225DB32210050FA95 /* String+Extensions.swift */,
+				2EDCEE8725DB32330050FA95 /* time.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +223,22 @@
 			dependencies = (
 			);
 			name = Avocadoge;
+			packageProductDependencies = (
+				2E4E767725DB1249004C8406 /* NIOTLS */,
+				2E4E767925DB1249004C8406 /* NIOWebSocket */,
+				2E4E767B25DB1249004C8406 /* _NIO1APIShims */,
+				2E4E767D25DB1249004C8406 /* NIOFoundationCompat */,
+				2E4E767F25DB1249004C8406 /* NIOHTTP1 */,
+				2E4E768125DB1249004C8406 /* NIOConcurrencyHelpers */,
+				2E4E768325DB1249004C8406 /* NIOTestUtils */,
+				2E4E768525DB1249004C8406 /* NIO */,
+				2E4E768B25DB126A004C8406 /* Logging */,
+				2EFE4F6825DB2E2800EE37D9 /* ArgumentParser */,
+				2EDCEE7625DB31800050FA95 /* ClusterMembership */,
+				2EDCEE7825DB31800050FA95 /* SWIM */,
+				2EDCEEC625DB34930050FA95 /* LifecycleNIOCompat */,
+				2EDCEEC825DB34930050FA95 /* Lifecycle */,
+			);
 			productName = Avocadoge;
 			productReference = 2E63960725D9ACDA0012F2AC /* Avocadoge.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +310,13 @@
 				Base,
 			);
 			mainGroup = 2E6395FE25D9ACDA0012F2AC;
+			packageReferences = (
+				2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */,
+				2E4E768A25DB126A004C8406 /* XCRemoteSwiftPackageReference "swift-log" */,
+				2EFE4F6725DB2E2800EE37D9 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				2EDCEE7525DB31800050FA95 /* XCRemoteSwiftPackageReference "swift-cluster-membership" */,
+				2EDCEEC525DB34930050FA95 /* XCRemoteSwiftPackageReference "swift-service-lifecycle" */,
+			);
 			productRefGroup = 2E63960825D9ACDA0012F2AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +359,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDCEE8325DB32210050FA95 /* String+Extensions.swift in Sources */,
+				2E4E769125DB129C004C8406 /* DogecoinPeerToPeer.swift in Sources */,
+				2EDCEEA725DB32BA0050FA95 /* NIOPeer.swift in Sources */,
+				2EDCEE8D25DB32580050FA95 /* Coding.swift in Sources */,
+				2EDCEEA225DB32A80050FA95 /* Message.swift in Sources */,
+				2EDCEE8825DB32330050FA95 /* time.swift in Sources */,
 				2E63960D25D9ACDA0012F2AC /* ContentView.swift in Sources */,
 				2E63960B25D9ACDA0012F2AC /* AvocadogeApp.swift in Sources */,
+				2EDCEEB625DB32F20050FA95 /* SWIMNIOShell.swift in Sources */,
+				2EDCEEAC25DB32CA0050FA95 /* Settings.swift in Sources */,
+				2EDCEE9225DB327B0050FA95 /* Logging.swift in Sources */,
+				2EDCEEC125DB33560050FA95 /* DogeNode.swift in Sources */,
+				2EDCEEB125DB32DD0050FA95 /* SWIMNIOHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +691,122 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.25.1;
+			};
+		};
+		2E4E768A25DB126A004C8406 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+		2EDCEE7525DB31800050FA95 /* XCRemoteSwiftPackageReference "swift-cluster-membership" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-cluster-membership";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+		2EDCEEC525DB34930050FA95 /* XCRemoteSwiftPackageReference "swift-service-lifecycle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swift-server/swift-service-lifecycle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "1.0.0-alpha.6";
+			};
+		};
+		2EFE4F6725DB2E2800EE37D9 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E4E767725DB1249004C8406 /* NIOTLS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOTLS;
+		};
+		2E4E767925DB1249004C8406 /* NIOWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOWebSocket;
+		};
+		2E4E767B25DB1249004C8406 /* _NIO1APIShims */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = _NIO1APIShims;
+		};
+		2E4E767D25DB1249004C8406 /* NIOFoundationCompat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOFoundationCompat;
+		};
+		2E4E767F25DB1249004C8406 /* NIOHTTP1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOHTTP1;
+		};
+		2E4E768125DB1249004C8406 /* NIOConcurrencyHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOConcurrencyHelpers;
+		};
+		2E4E768325DB1249004C8406 /* NIOTestUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOTestUtils;
+		};
+		2E4E768525DB1249004C8406 /* NIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E4E767625DB1249004C8406 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIO;
+		};
+		2E4E768B25DB126A004C8406 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E4E768A25DB126A004C8406 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+		2EDCEE7625DB31800050FA95 /* ClusterMembership */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EDCEE7525DB31800050FA95 /* XCRemoteSwiftPackageReference "swift-cluster-membership" */;
+			productName = ClusterMembership;
+		};
+		2EDCEE7825DB31800050FA95 /* SWIM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EDCEE7525DB31800050FA95 /* XCRemoteSwiftPackageReference "swift-cluster-membership" */;
+			productName = SWIM;
+		};
+		2EDCEEC625DB34930050FA95 /* LifecycleNIOCompat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EDCEEC525DB34930050FA95 /* XCRemoteSwiftPackageReference "swift-service-lifecycle" */;
+			productName = LifecycleNIOCompat;
+		};
+		2EDCEEC825DB34930050FA95 /* Lifecycle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EDCEEC525DB34930050FA95 /* XCRemoteSwiftPackageReference "swift-service-lifecycle" */;
+			productName = Lifecycle;
+		};
+		2EFE4F6825DB2E2800EE37D9 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EFE4F6725DB2E2800EE37D9 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E6395FF25D9ACDA0012F2AC /* Project object */;
 }

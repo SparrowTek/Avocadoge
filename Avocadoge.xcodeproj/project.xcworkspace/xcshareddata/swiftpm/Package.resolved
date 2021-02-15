@@ -1,0 +1,79 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser",
+        "state": {
+          "branch": null,
+          "revision": "9564d61b08a5335ae0a36f789a7d71493eacadfc",
+          "version": "0.3.2"
+        }
+      },
+      {
+        "package": "swift-backtrace",
+        "repositoryURL": "https://github.com/swift-server/swift-backtrace.git",
+        "state": {
+          "branch": null,
+          "revision": "f2fd8c4845a123419c348e0bc4b3839c414077d5",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "swift-cluster-membership",
+        "repositoryURL": "https://github.com/apple/swift-cluster-membership",
+        "state": {
+          "branch": null,
+          "revision": "3896fce7e9eb9cfce8a20abd94408f7e8c62fc2d",
+          "version": "0.3.1"
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log",
+        "state": {
+          "branch": null,
+          "revision": "173f567a2dfec11d74588eea82cecea555bdc0bc",
+          "version": "1.4.0"
+        }
+      },
+      {
+        "package": "swift-metrics",
+        "repositoryURL": "https://github.com/apple/swift-metrics.git",
+        "state": {
+          "branch": null,
+          "revision": "e382458581b05839a571c578e90060fff499f101",
+          "version": "2.1.1"
+        }
+      },
+      {
+        "package": "swift-nio",
+        "repositoryURL": "https://github.com/apple/swift-nio",
+        "state": {
+          "branch": null,
+          "revision": "43931b7a7daf8120a487601530c8bc03ce711992",
+          "version": "2.25.1"
+        }
+      },
+      {
+        "package": "swift-nio-extras",
+        "repositoryURL": "https://github.com/apple/swift-nio-extras.git",
+        "state": {
+          "branch": null,
+          "revision": "e5b5d191a80667a14827bfeb0ae4a511f7677942",
+          "version": "1.7.0"
+        }
+      },
+      {
+        "package": "swift-service-lifecycle",
+        "repositoryURL": "https://github.com/swift-server/swift-service-lifecycle",
+        "state": {
+          "branch": null,
+          "revision": "a7356e142b083938c63e559b78e35f7f82627a79",
+          "version": "1.0.0-alpha.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
