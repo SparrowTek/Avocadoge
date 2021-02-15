@@ -1,2 +1,2 @@
 # Avocadoge
-open sourced iOS Dogecoin wallet
+open source iOS Dogecoin wallet
