@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1C29EB2618923500A84623 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C29EA2618923500A84623 /* Colors.xcassets */; };
+		2E1C29F12618924E00A84623 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C29F02618924E00A84623 /* Color.swift */; };
 		2E63960B25D9ACDA0012F2AC /* AvocadogeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */; };
 		2E63960D25D9ACDA0012F2AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63960C25D9ACDA0012F2AC /* ContentView.swift */; };
 		2E63960F25D9ACDB0012F2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63960E25D9ACDB0012F2AC /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E1C29EA2618923500A84623 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2E1C29F02618924E00A84623 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2E63960725D9ACDA0012F2AC /* Avocadoge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocadoge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadogeApp.swift; sourceTree = "<group>"; };
 		2E63960C25D9ACDA0012F2AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1C29E8261891F300A84623 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */,
+				2E63961325D9ACDB0012F2AC /* Info.plist */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		2E1C29E9261891FB00A84623 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E63960E25D9ACDB0012F2AC /* Assets.xcassets */,
+				2E1C29EA2618923500A84623 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2E1C29EF2618924200A84623 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C29F02618924E00A84623 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2E6395FE25D9ACDA0012F2AC = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +125,9 @@
 		2E63960925D9ACDA0012F2AC /* Avocadoge */ = {
 			isa = PBXGroup;
 			children = (
-				2E63960E25D9ACDB0012F2AC /* Assets.xcassets */,
-				2E63961325D9ACDB0012F2AC /* Info.plist */,
-				2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */,
+				2E1C29EF2618924200A84623 /* Extensions */,
+				2E1C29E9261891FB00A84623 /* Resources */,
+				2E1C29E8261891F300A84623 /* System */,
 				2E63960C25D9ACDA0012F2AC /* ContentView.swift */,
 				2E63961025D9ACDB0012F2AC /* Preview Content */,
 			);
@@ -237,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1C29EB2618923500A84623 /* Colors.xcassets in Resources */,
 				2E63961225D9ACDB0012F2AC /* Preview Assets.xcassets in Resources */,
 				2E63960F25D9ACDB0012F2AC /* Assets.xcassets in Resources */,
 			);
@@ -265,6 +296,7 @@
 			files = (
 				2E63960D25D9ACDA0012F2AC /* ContentView.swift in Sources */,
 				2E63960B25D9ACDA0012F2AC /* AvocadogeApp.swift in Sources */,
+				2E1C29F12618924E00A84623 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +457,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Avocadoge/Preview Content\"";
 				DEVELOPMENT_TEAM = VFXJQ4U7H8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Avocadoge/Info.plist;
+				INFOPLIST_FILE = Avocadoge/System/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,7 +479,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Avocadoge/Preview Content\"";
 				DEVELOPMENT_TEAM = VFXJQ4U7H8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Avocadoge/Info.plist;
+				INFOPLIST_FILE = Avocadoge/System/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
