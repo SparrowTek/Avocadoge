@@ -9,5 +9,6 @@ import SwiftUI
 
 extension Color {
     static let avoPurple = Color("AvoPurple")
+    static let barTint = Color("BarTint")
 }
 

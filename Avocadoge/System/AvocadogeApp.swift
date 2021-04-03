@@ -11,7 +11,7 @@ import SwiftUI
 struct AvocadogeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }
