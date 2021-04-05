@@ -14,12 +14,12 @@ struct MainTabView: View {
         TabView(selection: $viewModel.tab) {
             TradeView()
                 .tabItem({
-                    Label("Trade", systemImage: "arrow.left.arrow.right.circle")
+                    Label("Trade", systemImage: "arrow.left.arrow.right")
                 })
                 .tag(MainTabs.trade)
             OverviewView()
                 .tabItem({
-                    Label("Overview", systemImage: "smallcircle.fill.circle")
+                    Label("Overview", systemImage: "chart.pie")
                 })
                 .tag(MainTabs.overview)
             CommunityView()
