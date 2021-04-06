@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Avocadoge
+
+  Created by Thomas Rademaker on 4/5/21.
+  
+*/
+
+// MARK: Tabs
+"TRADE" = "Trade";
+"OVERVIEW" = "Overview";
+"COMMUNITY" = "Community";
+
+// MARK: Overview
+"WELCOME_MESSAGE" = "Welcome Back, Thomas!";
+"WALLET_OVERVIEW" = "Wallet Overview";

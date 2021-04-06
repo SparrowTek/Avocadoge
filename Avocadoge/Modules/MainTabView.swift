@@ -18,17 +18,17 @@ struct MainTabView: View {
         TabView(selection: $viewModel.tab) {
             TradeView()
                 .tabItem({
-                    Label("Trade", systemImage: "arrow.left.arrow.right")
+                    Label("TRADE", systemImage: "arrow.left.arrow.right")
                 })
                 .tag(MainTabs.trade)
             OverviewView()
                 .tabItem({
-                    Label("Overview", systemImage: "chart.pie")
+                    Label("OVERVIEW", systemImage: "chart.pie")
                 })
                 .tag(MainTabs.overview)
             CommunityView()
                 .tabItem({
-                    Label("Community", systemImage: "newspaper")
+                    Label("COMMUNITY", systemImage: "newspaper")
                 })
                 .tag(MainTabs.community)
         }

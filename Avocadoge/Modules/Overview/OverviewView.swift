@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct OverviewView: View {
+    @State private var shouldShowSettings = false
+    @StateObject private var viewModel = OverviewViewModel()
+    
     var body: some View {
-        Text("Overview View")
+        ZStack {
+            Color.avoDarkPurple
+                .ignoresSafeArea()
+            OverviewHeaderView(viewModel: viewModel, shouldShowSettings: $shouldShowSettings)
+        }
+        .sheet(isPresented: $shouldShowSettings) {
+            SettingsView()
+        }
     }
 }
 

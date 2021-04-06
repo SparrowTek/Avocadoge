@@ -12,5 +12,6 @@ extension Color {
     static let barTint = Color("BarTint")
     static let secondary = Color("Secondary"); #warning("we may not need this")
     static let avoDarkPurple = Color("AvoDarkPurple")
+    static let avoWhite = Color("AvoWhite")
 }
 
