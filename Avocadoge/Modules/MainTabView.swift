@@ -31,6 +31,11 @@ struct MainTabView: View {
                     Label("COMMUNITY", systemImage: "newspaper")
                 })
                 .tag(MainTabs.community)
+            StoreView()
+                .tabItem({
+                    Label("STORE", systemImage: "cart")
+                })
+                .tag(MainTabs.store)
         }
         .accentColor(.barTint)
     }

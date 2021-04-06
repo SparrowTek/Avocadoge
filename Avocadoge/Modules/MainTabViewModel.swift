@@ -12,6 +12,7 @@ enum MainTabs {
     case trade
     case overview
     case community
+    case store
 }
 
 class MainTabViewModel: ObservableObject {

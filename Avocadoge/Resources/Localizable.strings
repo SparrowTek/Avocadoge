@@ -10,6 +10,7 @@
 "TRADE" = "Trade";
 "OVERVIEW" = "Overview";
 "COMMUNITY" = "Community";
+"STORE" = "Store";
 
 // MARK: Overview
 "WELCOME_MESSAGE" = "Welcome Back, Thomas!";

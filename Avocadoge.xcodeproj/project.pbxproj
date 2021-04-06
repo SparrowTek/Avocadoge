@@ -23,6 +23,7 @@
 		2ED33342261BCCAE00C637D2 /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED33341261BCCAE00C637D2 /* OverviewViewModel.swift */; };
 		2ED33347261BCD2B00C637D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ED33346261BCD2B00C637D2 /* Localizable.strings */; };
 		2ED33350261BDB2F00C637D2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3334F261BDB2F00C637D2 /* SettingsView.swift */; };
+		2ED33359261BDF2C00C637D2 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED33358261BDF2C00C637D2 /* StoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		2ED33341261BCCAE00C637D2 /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
 		2ED33346261BCD2B00C637D2 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		2ED3334F261BDB2F00C637D2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2ED33358261BDF2C00C637D2 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		2E1C29F82618964900A84623 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				2ED33357261BDF1F00C637D2 /* Store */,
 				2ED3334E261BDB2300C637D2 /* Settings */,
 				2E1C2A082618976900A84623 /* Community */,
 				2E1C2A072618975200A84623 /* Overview */,
@@ -222,6 +225,14 @@
 				2ED3334F261BDB2F00C637D2 /* SettingsView.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		2ED33357261BDF1F00C637D2 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				2ED33358261BDF2C00C637D2 /* StoreView.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +372,7 @@
 			files = (
 				2E1C2A1F261897D700A84623 /* CommunityView.swift in Sources */,
 				2E63960B25D9ACDA0012F2AC /* AvocadogeApp.swift in Sources */,
+				2ED33359261BDF2C00C637D2 /* StoreView.swift in Sources */,
 				2E1C2A1A261897C200A84623 /* OverviewView.swift in Sources */,
 				2E1C2A02261896F500A84623 /* MainTabViewModel.swift in Sources */,
 				2E1C29F12618924E00A84623 /* Color.swift in Sources */,
