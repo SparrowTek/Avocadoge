@@ -19,6 +19,8 @@
 		2E63961225D9ACDB0012F2AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63961125D9ACDB0012F2AC /* Preview Assets.xcassets */; };
 		2E63961D25D9ACDB0012F2AC /* AvocadogeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63961C25D9ACDB0012F2AC /* AvocadogeTests.swift */; };
 		2E63962825D9ACDB0012F2AC /* AvocadogeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63962725D9ACDB0012F2AC /* AvocadogeUITests.swift */; };
+		2EBD71C4261DCA4D0088CD13 /* WalletCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD71C3261DCA4D0088CD13 /* WalletCardView.swift */; };
+		2EBD71CF261DCC7A0088CD13 /* DogecoinSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD71CE261DCC7A0088CD13 /* DogecoinSymbolView.swift */; };
 		2ED3333B261BC93A00C637D2 /* OverviewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3333A261BC93A00C637D2 /* OverviewHeaderView.swift */; };
 		2ED33342261BCCAE00C637D2 /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED33341261BCCAE00C637D2 /* OverviewViewModel.swift */; };
 		2ED33347261BCD2B00C637D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ED33346261BCD2B00C637D2 /* Localizable.strings */; };
@@ -62,6 +64,8 @@
 		2E63962325D9ACDB0012F2AC /* AvocadogeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvocadogeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E63962725D9ACDB0012F2AC /* AvocadogeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadogeUITests.swift; sourceTree = "<group>"; };
 		2E63962925D9ACDB0012F2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EBD71C3261DCA4D0088CD13 /* WalletCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardView.swift; sourceTree = "<group>"; };
+		2EBD71CE261DCC7A0088CD13 /* DogecoinSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogecoinSymbolView.swift; sourceTree = "<group>"; };
 		2ED3333A261BC93A00C637D2 /* OverviewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewHeaderView.swift; sourceTree = "<group>"; };
 		2ED33341261BCCAE00C637D2 /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
 		2ED33346261BCD2B00C637D2 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 		2E1C29F82618964900A84623 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				2EBD71CD261DCC570088CD13 /* Common */,
 				2ED33357261BDF1F00C637D2 /* Store */,
 				2ED3334E261BDB2300C637D2 /* Settings */,
 				2E1C2A082618976900A84623 /* Community */,
@@ -149,6 +154,7 @@
 				2E1C2A19261897C200A84623 /* OverviewView.swift */,
 				2ED3333A261BC93A00C637D2 /* OverviewHeaderView.swift */,
 				2ED33341261BCCAE00C637D2 /* OverviewViewModel.swift */,
+				2EBD71C3261DCA4D0088CD13 /* WalletCardView.swift */,
 			);
 			path = Overview;
 			sourceTree = "<group>";
@@ -217,6 +223,14 @@
 				2E63962925D9ACDB0012F2AC /* Info.plist */,
 			);
 			path = AvocadogeUITests;
+			sourceTree = "<group>";
+		};
+		2EBD71CD261DCC570088CD13 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2EBD71CE261DCC7A0088CD13 /* DogecoinSymbolView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		2ED3334E261BDB2300C637D2 /* Settings */ = {
@@ -374,7 +388,9 @@
 				2E63960B25D9ACDA0012F2AC /* AvocadogeApp.swift in Sources */,
 				2ED33359261BDF2C00C637D2 /* StoreView.swift in Sources */,
 				2E1C2A1A261897C200A84623 /* OverviewView.swift in Sources */,
+				2EBD71CF261DCC7A0088CD13 /* DogecoinSymbolView.swift in Sources */,
 				2E1C2A02261896F500A84623 /* MainTabViewModel.swift in Sources */,
+				2EBD71C4261DCA4D0088CD13 /* WalletCardView.swift in Sources */,
 				2E1C29F12618924E00A84623 /* Color.swift in Sources */,
 				2ED33350261BDB2F00C637D2 /* SettingsView.swift in Sources */,
 				2E1C2A15261897AF00A84623 /* TradeView.swift in Sources */,

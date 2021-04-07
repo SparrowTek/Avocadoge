@@ -9,9 +9,12 @@ import SwiftUI
 
 extension Color {
     static let avoPurple = Color("AvoPurple")
-    static let barTint = Color("BarTint")
-    static let secondary = Color("Secondary"); #warning("we may not need this")
+    static let avoGreen = Color("AvoGreen")
     static let avoDarkPurple = Color("AvoDarkPurple")
+    static let avoMediumPurple = Color("AvoMediumPurlple")
     static let avoWhite = Color("AvoWhite")
+    static let barTint = Color("BarTint")
+    static let text = Color("Text")
+    static let pillText = Color("PillText")
 }
 
