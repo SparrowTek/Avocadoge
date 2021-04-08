@@ -16,6 +16,7 @@
 		2E1C2A1F261897D700A84623 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C2A1E261897D700A84623 /* CommunityView.swift */; };
 		2E58E5E4261FB40200167B21 /* ActionsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E58E5E3261FB40200167B21 /* ActionsScrollView.swift */; };
 		2E58E5EC261FB49E00167B21 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E58E5EB261FB49E00167B21 /* ActionButtonView.swift */; };
+		2E58E5F7261FB9C600167B21 /* DetailsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E58E5F6261FB9C600167B21 /* DetailsScrollView.swift */; };
 		2E63960B25D9ACDA0012F2AC /* AvocadogeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */; };
 		2E63960F25D9ACDB0012F2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63960E25D9ACDB0012F2AC /* Assets.xcassets */; };
 		2E63961225D9ACDB0012F2AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63961125D9ACDB0012F2AC /* Preview Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		2E1C2A1E261897D700A84623 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		2E58E5E3261FB40200167B21 /* ActionsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsScrollView.swift; sourceTree = "<group>"; };
 		2E58E5EB261FB49E00167B21 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+		2E58E5F6261FB9C600167B21 /* DetailsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScrollView.swift; sourceTree = "<group>"; };
 		2E63960725D9ACDA0012F2AC /* Avocadoge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocadoge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadogeApp.swift; sourceTree = "<group>"; };
 		2E63960E25D9ACDB0012F2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		2E58E5E2261FB3C100167B21 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				2E58E5F6261FB9C600167B21 /* DetailsScrollView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				2ED33350261BDB2F00C637D2 /* SettingsView.swift in Sources */,
 				2E1C2A15261897AF00A84623 /* TradeView.swift in Sources */,
 				2ED3333B261BC93A00C637D2 /* OverviewHeaderView.swift in Sources */,
+				2E58E5F7261FB9C600167B21 /* DetailsScrollView.swift in Sources */,
 				2E58E5E4261FB40200167B21 /* ActionsScrollView.swift in Sources */,
 				2E1C29FA2618965B00A84623 /* MainTabView.swift in Sources */,
 				2ED33342261BCCAE00C637D2 /* OverviewViewModel.swift in Sources */,

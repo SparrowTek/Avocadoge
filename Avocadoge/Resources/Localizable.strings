@@ -18,6 +18,7 @@
 "DOGECOIND" = "Dogecoin";
 "DEFAULT" = "DEFAULT";
 "QUICK_ACTIONS" = "Quick actions";
+"OVERVIEW_DETAILS" = "Overview details";
 
 // MARK: Quick Actions
 "WALLET_CODE" = "Wallet Code";

@@ -20,6 +20,7 @@ struct OverviewView: View {
                 OverviewHeaderView(viewModel: viewModel, shouldShowSettings: $shouldShowSettings)
                 WalletScrollView()
                 ActionsScrollView()
+                DetailsScrollView()
                 Spacer()
             }
         }
