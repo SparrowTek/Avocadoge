@@ -16,7 +16,7 @@ struct OverviewView: View {
             Color.avoDarkPurple
                 .ignoresSafeArea()
             OverviewHeaderView(viewModel: viewModel, shouldShowSettings: $shouldShowSettings)
-            WalletCardView(accountValue: "18.7 K DOGE", walletAddress: "**** **** 4254", isDefaultWallet: true)
+            WalletScrollView()
         }
         .sheet(isPresented: $shouldShowSettings) {
             SettingsView()
