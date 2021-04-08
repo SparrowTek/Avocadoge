@@ -19,6 +19,7 @@ struct OverviewView: View {
             VStack {
                 OverviewHeaderView(viewModel: viewModel, shouldShowSettings: $shouldShowSettings)
                 WalletScrollView()
+                ActionsScrollView()
                 Spacer()
             }
         }

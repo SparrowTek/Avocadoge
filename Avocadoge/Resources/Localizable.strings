@@ -17,3 +17,11 @@
 "WALLET_OVERVIEW" = "Wallet Overview";
 "DOGECOIND" = "Dogecoin";
 "DEFAULT" = "DEFAULT";
+"QUICK_ACTIONS" = "Quick actions";
+
+// MARK: Quick Actions
+"WALLET_CODE" = "Wallet Code";
+"SCAN_CODE" = "Scan Code";
+"ANALYTICS" = "Analytics";
+"SHOP_MERCH" = "Shop Merch";
+"SHARE_APP" = "Share App";

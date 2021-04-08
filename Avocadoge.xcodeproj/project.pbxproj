@@ -14,6 +14,8 @@
 		2E1C2A15261897AF00A84623 /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C2A14261897AF00A84623 /* TradeView.swift */; };
 		2E1C2A1A261897C200A84623 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C2A19261897C200A84623 /* OverviewView.swift */; };
 		2E1C2A1F261897D700A84623 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C2A1E261897D700A84623 /* CommunityView.swift */; };
+		2E58E5E4261FB40200167B21 /* ActionsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E58E5E3261FB40200167B21 /* ActionsScrollView.swift */; };
+		2E58E5EC261FB49E00167B21 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E58E5EB261FB49E00167B21 /* ActionButtonView.swift */; };
 		2E63960B25D9ACDA0012F2AC /* AvocadogeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */; };
 		2E63960F25D9ACDB0012F2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63960E25D9ACDB0012F2AC /* Assets.xcassets */; };
 		2E63961225D9ACDB0012F2AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63961125D9ACDB0012F2AC /* Preview Assets.xcassets */; };
@@ -55,6 +57,8 @@
 		2E1C2A14261897AF00A84623 /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
 		2E1C2A19261897C200A84623 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
 		2E1C2A1E261897D700A84623 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		2E58E5E3261FB40200167B21 /* ActionsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsScrollView.swift; sourceTree = "<group>"; };
+		2E58E5EB261FB49E00167B21 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 		2E63960725D9ACDA0012F2AC /* Avocadoge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocadoge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E63960A25D9ACDA0012F2AC /* AvocadogeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadogeApp.swift; sourceTree = "<group>"; };
 		2E63960E25D9ACDB0012F2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,12 +159,12 @@
 		2E1C2A072618975200A84623 /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				2E58E5E2261FB3C100167B21 /* Details */,
+				2E58E5E1261FB3B100167B21 /* Actions */,
+				2E58E5E0261FB39D00167B21 /* Wallet */,
 				2E1C2A19261897C200A84623 /* OverviewView.swift */,
 				2ED3333A261BC93A00C637D2 /* OverviewHeaderView.swift */,
 				2ED33341261BCCAE00C637D2 /* OverviewViewModel.swift */,
-				2EBD71C3261DCA4D0088CD13 /* WalletCardView.swift */,
-				2E64EEFD261F2CC2007040EC /* WalletScrollView.swift */,
-				2E64EF02261F2F39007040EC /* AddWalletCardView.swift */,
 			);
 			path = Overview;
 			sourceTree = "<group>";
@@ -171,6 +175,32 @@
 				2E1C2A1E261897D700A84623 /* CommunityView.swift */,
 			);
 			path = Community;
+			sourceTree = "<group>";
+		};
+		2E58E5E0261FB39D00167B21 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				2E64EF02261F2F39007040EC /* AddWalletCardView.swift */,
+				2E64EEFD261F2CC2007040EC /* WalletScrollView.swift */,
+				2EBD71C3261DCA4D0088CD13 /* WalletCardView.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		2E58E5E1261FB3B100167B21 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				2E58E5E3261FB40200167B21 /* ActionsScrollView.swift */,
+				2E58E5EB261FB49E00167B21 /* ActionButtonView.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		2E58E5E2261FB3C100167B21 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 		2E6395FE25D9ACDA0012F2AC = {
@@ -399,10 +429,12 @@
 				2E1C2A02261896F500A84623 /* MainTabViewModel.swift in Sources */,
 				2E64EF03261F2F39007040EC /* AddWalletCardView.swift in Sources */,
 				2EBD71C4261DCA4D0088CD13 /* WalletCardView.swift in Sources */,
+				2E58E5EC261FB49E00167B21 /* ActionButtonView.swift in Sources */,
 				2E1C29F12618924E00A84623 /* Color.swift in Sources */,
 				2ED33350261BDB2F00C637D2 /* SettingsView.swift in Sources */,
 				2E1C2A15261897AF00A84623 /* TradeView.swift in Sources */,
 				2ED3333B261BC93A00C637D2 /* OverviewHeaderView.swift in Sources */,
+				2E58E5E4261FB40200167B21 /* ActionsScrollView.swift in Sources */,
 				2E1C29FA2618965B00A84623 /* MainTabView.swift in Sources */,
 				2ED33342261BCCAE00C637D2 /* OverviewViewModel.swift in Sources */,
 			);
