@@ -11,42 +11,45 @@ struct WalletCardView: View {
     var accountValue: String
     var walletAddress: String
     var isDefaultWallet: Bool
+    var action: () -> ()
     
     var body: some View {
-        HStack {
-            VStack {
-                HStack {
-                    VStack {
-                        DogecoinSymbolView()
-                            .padding([.top, .bottom])
-                        Text("DOGECOIND")
-                            .font(.system(size: 13, weight: .regular, design: .rounded))
-                            .foregroundColor(.text)
+        Button(action: action) {
+            HStack {
+                VStack {
+                    HStack {
+                        VStack {
+                            DogecoinSymbolView()
+                                .padding([.top, .bottom])
+                            Text("DOGECOIND")
+                                .font(.system(size: 13, weight: .regular, design: .rounded))
+                                .foregroundColor(.text)
+                        }
+                        .padding(.leading)
+                        Spacer()
                     }
-                    .padding(.leading)
+                    HStack {
+                        Text(accountValue)
+                            .font(.system(size: 24, weight: .bold, design: .rounded))
+                            .foregroundColor(.avoWhite)
+                        Spacer()
+                    }
+                    .padding([.top, .leading])
+                }
+                
+                VStack {
+                    Text(walletAddress)
+                        .font(.system(size: 13, weight: .regular, design: .rounded))
+                        .foregroundColor(.text)
+                        .padding([.top, .trailing])
+                    if isDefaultWallet {
+                        DefaultPillView()
+                            .padding()
+                    }
                     Spacer()
                 }
-                HStack {
-                    Text(accountValue)
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
-                        .foregroundColor(.avoWhite)
-                    Spacer()
-                }
-                .padding([.top, .leading])
+                .padding()
             }
-            
-            VStack {
-                Text(walletAddress)
-                    .font(.system(size: 13, weight: .regular, design: .rounded))
-                    .foregroundColor(.text)
-                    .padding([.top, .trailing])
-                if isDefaultWallet {
-                    DefaultPillView()
-                        .padding()
-                }
-                Spacer()
-            }
-            .padding()
         }
         .frame(width: 295, height: 200)
         .background(Color.avoMediumPurple)
@@ -69,6 +72,6 @@ struct DefaultPillView: View {
 
 struct WalletCardView_Previews: PreviewProvider {
     static var previews: some View {
-        WalletCardView(accountValue: "18.3K DOGE", walletAddress: "**** **** 2452", isDefaultWallet: true)
+        WalletCardView(accountValue: "18.3K DOGE", walletAddress: "**** **** 2452", isDefaultWallet: true, action: {})
     }
 }

@@ -28,25 +28,14 @@ struct OverviewHeaderView: View {
                     .font(.system(size: 16, weight: .regular, design: .rounded))
                 Spacer()
             }
-            
-            HStack {
-                Text("WALLET_OVERVIEW")
-                    .foregroundColor(.avoWhite)
-                    .font(.system(size: 32, weight: .bold, design: .rounded))
-                    .padding(.top)
-                Spacer()
-            }
-            
-            Spacer()
         }
-        .padding()
+        .padding([.top, .leading, .trailing])
     }
 }
 
 struct OverviewHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         OverviewHeaderView(viewModel: OverviewViewModel(), shouldShowSettings: .constant(false))
-            .frame(width: 375, height: 210)
             .background(Color.avoDarkPurple)
     }
 }

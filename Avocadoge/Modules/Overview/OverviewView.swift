@@ -15,8 +15,12 @@ struct OverviewView: View {
         ZStack {
             Color.avoDarkPurple
                 .ignoresSafeArea()
-            OverviewHeaderView(viewModel: viewModel, shouldShowSettings: $shouldShowSettings)
-            WalletScrollView()
+            
+            VStack {
+                OverviewHeaderView(viewModel: viewModel, shouldShowSettings: $shouldShowSettings)
+                WalletScrollView()
+                Spacer()
+            }
         }
         .sheet(isPresented: $shouldShowSettings) {
             SettingsView()
