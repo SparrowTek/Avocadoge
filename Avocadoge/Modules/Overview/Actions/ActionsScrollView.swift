@@ -17,7 +17,7 @@ struct ActionsScrollView: View {
                 Spacer()
             }
             .padding()
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     ActionButtonView(actionName: "WALLET_CODE", actionImage: "qrcode", action: {})
                         .padding(.trailing)

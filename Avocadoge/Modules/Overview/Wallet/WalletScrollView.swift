@@ -17,7 +17,7 @@ struct WalletScrollView: View {
                 Spacer()
             }
             .padding()
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 #warning("change this to a LazyHGrid once the model is created")
                 HStack {
                     WalletCardView(accountValue: "18.7 K DOGE", walletAddress: "**** **** 4254", isDefaultWallet: true, action: {})
