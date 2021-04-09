@@ -24,6 +24,7 @@ struct OverviewView: View {
                 Spacer()
             }
         }
+        .statusBarStyle(.lightContent)
         .sheet(isPresented: $shouldShowSettings) {
             SettingsView()
         }
