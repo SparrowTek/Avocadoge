@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct StoreView: View {
+    @StateObject private var viewModel = StoreViewModel()
+    
     var body: some View {
-        Text("Store")
+        VStack {
+            if viewModel.showProgressBar {
+                ProgressView(value: viewModel.progress)
+            }
+            WebView(url: .web(url: viewModel.storeURL), delegate: viewModel)
+        }
     }
 }
 
