@@ -26,3 +26,8 @@
 "ANALYTICS" = "Analytics";
 "SHOP_MERCH" = "Shop Merch";
 "SHARE_APP" = "Share App";
+
+// MARK: Trade
+"TRADE" = "Trade";
+"BUY" = "Buy";
+"SELL" = "Sell";

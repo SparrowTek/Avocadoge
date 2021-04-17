@@ -9,7 +9,43 @@ import SwiftUI
 
 struct TradeView: View {
     var body: some View {
-        Text("Trade View")
+        ZStack {
+            Color.avoDarkPurple
+                .ignoresSafeArea()
+            VStack {
+                HStack {
+                    Text("TRADE")
+                        .foregroundColor(.avoWhite)
+                        .font(.system(size: 32, weight: .bold, design: .rounded))
+                    Spacer()
+                }
+                .padding()
+                Spacer()
+                HStack {
+                    Button("BUY", action: {})
+                        .frame(width: 153, height: 59)
+                        .foregroundColor(.avoWhite)
+                        .font(.system(size: 18, weight: .bold))
+                        .background(
+                            Capsule()
+                                .fill(Color.avoPurple)
+                        )
+                        .padding()
+                    
+                    Button("SELL", action: {})
+                        .frame(width: 153, height: 59)
+                        .foregroundColor(.avoWhite)
+                        .font(.system(size: 18, weight: .bold))
+                        .background(
+                            Capsule()
+                                .fill(Color.avoRed)
+                        )
+                        .padding()
+                }
+                Spacer()
+                
+            }
+        }
     }
 }
 
