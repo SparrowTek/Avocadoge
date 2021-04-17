@@ -43,9 +43,9 @@ struct TradeView: View {
                         .padding()
                 }
                 Spacer()
-                
             }
         }
+        .statusBarStyle(.lightContent)
     }
 }
 

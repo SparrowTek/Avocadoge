@@ -17,6 +17,7 @@ struct StoreView: View {
             }
             WebView(url: .web(url: viewModel.storeURL), delegate: viewModel)
         }
+        .statusBarStyle(.darkContent)
     }
 }
 
