@@ -33,6 +33,10 @@
 		2ED33347261BCD2B00C637D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ED33346261BCD2B00C637D2 /* Localizable.strings */; };
 		2ED33350261BDB2F00C637D2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3334F261BDB2F00C637D2 /* SettingsView.swift */; };
 		2ED33359261BDF2C00C637D2 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED33358261BDF2C00C637D2 /* StoreView.swift */; };
+		2EE7E91B262C4EDB009316D4 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7E91A262C4EDB009316D4 /* Path.swift */; };
+		2EE7E921262C4EFA009316D4 /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7E920262C4EFA009316D4 /* LineGraphView.swift */; };
+		2EE7E926262C525D009316D4 /* LineGraphWithAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7E925262C525D009316D4 /* LineGraphWithAxisView.swift */; };
+		2EE7E92B262C535C009316D4 /* TradeGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7E92A262C535C009316D4 /* TradeGraphView.swift */; };
 		2EF925CC2621C9A500C226E0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF925CB2621C9A500C226E0 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +90,10 @@
 		2ED33346261BCD2B00C637D2 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		2ED3334F261BDB2F00C637D2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2ED33358261BDF2C00C637D2 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		2EE7E91A262C4EDB009316D4 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		2EE7E920262C4EFA009316D4 /* LineGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
+		2EE7E925262C525D009316D4 /* LineGraphWithAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphWithAxisView.swift; sourceTree = "<group>"; };
+		2EE7E92A262C535C009316D4 /* TradeGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeGraphView.swift; sourceTree = "<group>"; };
 		2EF925CB2621C9A500C226E0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				2E1C29F02618924E00A84623 /* Color.swift */,
+				2EE7E91A262C4EDB009316D4 /* Path.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -144,6 +153,7 @@
 		2E1C29F82618964900A84623 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				2EE7E91F262C4EEA009316D4 /* LineGraph */,
 				2EBD71CD261DCC570088CD13 /* Common */,
 				2ED33357261BDF1F00C637D2 /* Store */,
 				2ED3334E261BDB2300C637D2 /* Settings */,
@@ -160,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				2E1C2A14261897AF00A84623 /* TradeView.swift */,
+				2EE7E92A262C535C009316D4 /* TradeGraphView.swift */,
 			);
 			path = Trade;
 			sourceTree = "<group>";
@@ -295,6 +306,15 @@
 				2E3677EE262A237B00DEAF3B /* StoreViewModel.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		2EE7E91F262C4EEA009316D4 /* LineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7E920262C4EFA009316D4 /* LineGraphView.swift */,
+				2EE7E925262C525D009316D4 /* LineGraphWithAxisView.swift */,
+			);
+			path = LineGraph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,6 +456,8 @@
 				2E3677EF262A237B00DEAF3B /* StoreViewModel.swift in Sources */,
 				2EF925CC2621C9A500C226E0 /* WebView.swift in Sources */,
 				2E64EEFE261F2CC2007040EC /* WalletScrollView.swift in Sources */,
+				2EE7E926262C525D009316D4 /* LineGraphWithAxisView.swift in Sources */,
+				2EE7E92B262C535C009316D4 /* TradeGraphView.swift in Sources */,
 				2E1C2A1F261897D700A84623 /* CommunityView.swift in Sources */,
 				2E63960B25D9ACDA0012F2AC /* AvocadogeApp.swift in Sources */,
 				2ED33359261BDF2C00C637D2 /* StoreView.swift in Sources */,
@@ -444,12 +466,14 @@
 				2E1C2A02261896F500A84623 /* MainTabViewModel.swift in Sources */,
 				2E64EF03261F2F39007040EC /* AddWalletCardView.swift in Sources */,
 				2EBD71C4261DCA4D0088CD13 /* WalletCardView.swift in Sources */,
+				2EE7E91B262C4EDB009316D4 /* Path.swift in Sources */,
 				2E58E5EC261FB49E00167B21 /* ActionButtonView.swift in Sources */,
 				2E1C29F12618924E00A84623 /* Color.swift in Sources */,
 				2ED33350261BDB2F00C637D2 /* SettingsView.swift in Sources */,
 				2E1C2A15261897AF00A84623 /* TradeView.swift in Sources */,
 				2ED3333B261BC93A00C637D2 /* OverviewHeaderView.swift in Sources */,
 				2E58E5F7261FB9C600167B21 /* DetailsScrollView.swift in Sources */,
+				2EE7E921262C4EFA009316D4 /* LineGraphView.swift in Sources */,
 				2E58E5E4261FB40200167B21 /* ActionsScrollView.swift in Sources */,
 				2E1C29FA2618965B00A84623 /* MainTabView.swift in Sources */,
 				2ED33342261BCCAE00C637D2 /* OverviewViewModel.swift in Sources */,

@@ -20,7 +20,8 @@ struct TradeView: View {
                     Spacer()
                 }
                 .padding()
-                Spacer()
+                TradeGraphView()
+                    .padding()
                 HStack {
                     Button("BUY", action: {})
                         .frame(width: 153, height: 59)
@@ -42,6 +43,7 @@ struct TradeView: View {
                         )
                         .padding()
                 }
+                .padding()
                 Spacer()
             }
         }
