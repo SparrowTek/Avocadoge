@@ -16,7 +16,7 @@ extension Color {
     static let primaryText = Color("PrimaryText")
     static let secondaryText = Color("SecondaryText")
     static let pillText = Color("PillText")
-    
+    static let buttonTint = Color("ButtonTint")
     static let primaryBackground = Color("PrimaryBackground")
     static let secondaryBackground = Color("SecondaryBackground")
 }

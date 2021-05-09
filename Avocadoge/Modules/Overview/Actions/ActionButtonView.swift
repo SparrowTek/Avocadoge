@@ -16,7 +16,7 @@ struct ActionButtonView: View {
         Button(action: action) {
             VStack {
                 Image(systemName: actionImage)
-                    .foregroundColor(.avoPurple)
+                    .foregroundColor(.buttonTint)
                     .font(.system(size: 28, weight: .regular, design: .rounded))
                     .frame(width: 83, height: 83)
                     .background(
@@ -26,7 +26,7 @@ struct ActionButtonView: View {
                     )
                 
                 Text(actionName)
-                    .foregroundColor(.avoPurple)
+                    .foregroundColor(.buttonTint)
                     .font(.system(size: 11, weight: .regular, design: .rounded))
                     .padding(.top, 2)
             }

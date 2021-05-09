@@ -18,7 +18,7 @@ struct OverviewHeaderView: View {
                 Button(action: { shouldShowSettings.toggle() }) {
                     Image(systemName: "person.crop.circle")
                         .font(.system(size: 38))
-                        .foregroundColor(.avoPurple)
+                        .foregroundColor(.buttonTint)
                 }
             }
         }

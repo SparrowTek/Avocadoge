@@ -25,7 +25,7 @@ struct LineGraphView: View {
 struct Line: View {
     var data: [Double]
     @Binding var frame: CGRect
-    var color: Color = .avoPurple
+    var color: Color = .buttonTint
 
     let padding:CGFloat = 30
 
