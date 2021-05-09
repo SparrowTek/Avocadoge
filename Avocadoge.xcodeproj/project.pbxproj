@@ -23,7 +23,6 @@
 		2E63961225D9ACDB0012F2AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63961125D9ACDB0012F2AC /* Preview Assets.xcassets */; };
 		2E63961D25D9ACDB0012F2AC /* AvocadogeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63961C25D9ACDB0012F2AC /* AvocadogeTests.swift */; };
 		2E63962825D9ACDB0012F2AC /* AvocadogeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63962725D9ACDB0012F2AC /* AvocadogeUITests.swift */; };
-		2E64620B262096FA001DD0E3 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E64620A262096FA001DD0E3 /* StatusBarController.swift */; };
 		2E64EEFE261F2CC2007040EC /* WalletScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E64EEFD261F2CC2007040EC /* WalletScrollView.swift */; };
 		2E64EF03261F2F39007040EC /* AddWalletCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E64EF02261F2F39007040EC /* AddWalletCardView.swift */; };
 		2EBD71C4261DCA4D0088CD13 /* WalletCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD71C3261DCA4D0088CD13 /* WalletCardView.swift */; };
@@ -80,7 +79,6 @@
 		2E63962325D9ACDB0012F2AC /* AvocadogeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvocadogeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E63962725D9ACDB0012F2AC /* AvocadogeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadogeUITests.swift; sourceTree = "<group>"; };
 		2E63962925D9ACDB0012F2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E64620A262096FA001DD0E3 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		2E64EEFD261F2CC2007040EC /* WalletScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletScrollView.swift; sourceTree = "<group>"; };
 		2E64EF02261F2F39007040EC /* AddWalletCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWalletCardView.swift; sourceTree = "<group>"; };
 		2EBD71C3261DCA4D0088CD13 /* WalletCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardView.swift; sourceTree = "<group>"; };
@@ -285,7 +283,6 @@
 			isa = PBXGroup;
 			children = (
 				2EBD71CE261DCC7A0088CD13 /* DogecoinSymbolView.swift */,
-				2E64620A262096FA001DD0E3 /* StatusBarController.swift */,
 				2EF925CB2621C9A500C226E0 /* WebView.swift */,
 			);
 			path = Common;
@@ -452,7 +449,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E64620B262096FA001DD0E3 /* StatusBarController.swift in Sources */,
 				2E3677EF262A237B00DEAF3B /* StoreViewModel.swift in Sources */,
 				2EF925CC2621C9A500C226E0 /* WebView.swift in Sources */,
 				2E64EEFE261F2CC2007040EC /* WalletScrollView.swift in Sources */,

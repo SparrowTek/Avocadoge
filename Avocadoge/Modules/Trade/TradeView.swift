@@ -47,7 +47,6 @@ struct TradeView: View {
                 Spacer()
             }
         }
-        .statusBarStyle(.lightContent)
     }
 }
 
