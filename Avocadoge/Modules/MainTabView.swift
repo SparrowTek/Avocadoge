@@ -10,10 +10,6 @@ import SwiftUI
 struct MainTabView: View {
     @StateObject private var viewModel = MainTabViewModel()
     
-    init() {
-        UITabBar.appearance().barTintColor = UIColor(Color.primaryBackground)
-    }
-    
     var body: some View {
         TabView(selection: $viewModel.tab) {
             TradeView()
@@ -38,6 +34,9 @@ struct MainTabView: View {
                 .tag(MainTabs.store)
         }
         .accentColor(.barTint)
+        .onAppear {
+            UITabBar.appearance().barTintColor = UIColor(Color.primaryBackground)
+        }
     }
 }
 
