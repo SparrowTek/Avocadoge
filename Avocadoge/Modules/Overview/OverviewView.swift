@@ -13,7 +13,7 @@ struct OverviewView: View {
     
     var body: some View {
         ZStack {
-            Color.avoDarkPurple
+            Color.primaryBackground
                 .ignoresSafeArea()
             
             VStack {

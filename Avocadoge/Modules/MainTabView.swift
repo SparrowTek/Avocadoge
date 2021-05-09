@@ -11,7 +11,7 @@ struct MainTabView: View {
     @StateObject private var viewModel = MainTabViewModel()
     
     init() {
-        UITabBar.appearance().barTintColor = UIColor(Color.avoDarkPurple)
+        UITabBar.appearance().barTintColor = UIColor(Color.primaryBackground)
     }
     
     var body: some View {

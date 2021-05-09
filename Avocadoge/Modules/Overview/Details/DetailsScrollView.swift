@@ -12,7 +12,7 @@ struct DetailsScrollView: View {
         VStack {
             HStack {
                 Text("OVERVIEW_DETAILS")
-                    .foregroundColor(.avoWhite)
+                    .foregroundColor(.primaryText)
                     .font(.system(size: 20, weight: .bold, design: .rounded))
                 Spacer()
             }

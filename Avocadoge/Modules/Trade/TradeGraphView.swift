@@ -12,7 +12,7 @@ struct TradeGraphView: View {
         VStack {
             Text("$0.3023495")
                 .font(.system(size: 24, weight: .semibold, design: .rounded))
-                .foregroundColor(.avoWhite)
+                .foregroundColor(.primaryText)
                 .padding(.bottom, 2)
                 .padding(.top)
             Text("+ 3.45%")
@@ -34,7 +34,7 @@ struct TradeGraphView: View {
                 .frame(width: 329, height: 150)
         }
         .frame(width: 329, height: 300)
-        .background(Color.avoMediumPurple)
+        .background(Color.secondaryBackground)
         .cornerRadius(30)
     }
 }
@@ -48,7 +48,7 @@ struct TradeGraphRangeButtonView: View {
         Button(action: action) {
             VStack(spacing: 0) {
                 Text(title)
-                    .foregroundColor(isCurrentSelection ? .avoPurple : .avoWhite)
+                    .foregroundColor(isCurrentSelection ? .avoPurple : .primaryText)
                     .font(.system(size: 13))
                 Rectangle()
                     .fill(isCurrentSelection ? Color.avoPurple : Color.clear)

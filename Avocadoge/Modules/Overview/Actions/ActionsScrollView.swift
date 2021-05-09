@@ -12,7 +12,7 @@ struct ActionsScrollView: View {
         VStack {
             HStack {
                 Text("QUICK_ACTIONS")
-                    .foregroundColor(.avoWhite)
+                    .foregroundColor(.primaryText)
                     .font(.system(size: 20, weight: .bold, design: .rounded))
                 Spacer()
             }
@@ -39,6 +39,6 @@ struct ActionsScrollView: View {
 struct ActionsScrollView_Previews: PreviewProvider {
     static var previews: some View {
         ActionsScrollView()
-            .background(Color.avoDarkPurple)
+            .background(Color.primaryBackground)
     }
 }

@@ -23,7 +23,7 @@ struct WalletCardView: View {
                                 .padding([.top, .bottom])
                             Text("DOGECOIND")
                                 .font(.system(size: 13, weight: .regular, design: .rounded))
-                                .foregroundColor(.text)
+                                .foregroundColor(.secondaryText)
                         }
                         .padding(.leading)
                         Spacer()
@@ -31,7 +31,7 @@ struct WalletCardView: View {
                     HStack {
                         Text(accountValue)
                             .font(.system(size: 24, weight: .bold, design: .rounded))
-                            .foregroundColor(.avoWhite)
+                            .foregroundColor(.primaryText)
                         Spacer()
                     }
                     .padding([.top, .leading])
@@ -40,7 +40,7 @@ struct WalletCardView: View {
                 VStack {
                     Text(walletAddress)
                         .font(.system(size: 13, weight: .regular, design: .rounded))
-                        .foregroundColor(.text)
+                        .foregroundColor(.secondaryText)
                         .padding([.top, .trailing])
                     if isDefaultWallet {
                         DefaultPillView()
@@ -52,7 +52,7 @@ struct WalletCardView: View {
             }
         }
         .frame(width: 295, height: 200)
-        .background(Color.avoMediumPurple)
+        .background(Color.secondaryBackground)
         .cornerRadius(30.0)
     }
 }

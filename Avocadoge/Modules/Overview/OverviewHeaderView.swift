@@ -36,6 +36,6 @@ struct OverviewHeaderView: View {
 struct OverviewHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         OverviewHeaderView(viewModel: OverviewViewModel(), shouldShowSettings: .constant(false))
-            .background(Color.avoDarkPurple)
+            .background(Color.primaryBackground)
     }
 }

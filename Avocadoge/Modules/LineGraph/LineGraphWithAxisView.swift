@@ -19,18 +19,18 @@ struct LineGraphWithAxisView: View {
                     ForEach(0..<yAxisValues.count) { index in
                         Spacer()
                         Text(yAxisValues[index])
-                            .foregroundColor(.avoWhite)
+                            .foregroundColor(.primaryText)
                             .font(.system(size: 12, weight: .medium))
                     }
                 }
             }
             Rectangle()
-                .fill(Color.avoWhite.opacity(0.4))
+                .fill(Color.primaryText.opacity(0.4))
                 .frame(maxWidth: .infinity, minHeight: 6, maxHeight: 6)
                 .cornerRadius(3)
         }
         .padding()
-        .background(Color.avoMediumPurple)
+        .background(Color.secondaryBackground)
     }
 }
 

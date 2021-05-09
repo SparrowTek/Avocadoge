@@ -19,7 +19,7 @@ struct AddWalletCardView: View {
             }
         }
         .frame(width: 113, height: 200)
-        .background(Color.avoMediumPurple)
+        .background(Color.secondaryBackground)
         .cornerRadius(30.0)
     }
 }

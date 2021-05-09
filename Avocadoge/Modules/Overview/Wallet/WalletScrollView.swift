@@ -12,7 +12,7 @@ struct WalletScrollView: View {
         VStack {
             HStack {
                 Text("WALLET_OVERVIEW")
-                    .foregroundColor(.avoWhite)
+                    .foregroundColor(.primaryText)
                     .font(.system(size: 32, weight: .bold, design: .rounded))
                 Spacer()
             }
@@ -38,6 +38,6 @@ struct WalletScrollView: View {
 struct WalletScrollView_Previews: PreviewProvider {
     static var previews: some View {
         WalletScrollView()
-            .background(Color.avoDarkPurple)
+            .background(Color.primaryBackground)
     }
 }

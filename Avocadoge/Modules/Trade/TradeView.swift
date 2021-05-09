@@ -10,12 +10,12 @@ import SwiftUI
 struct TradeView: View {
     var body: some View {
         ZStack {
-            Color.avoDarkPurple
+            Color.primaryBackground
                 .ignoresSafeArea()
             VStack {
                 HStack {
                     Text("TRADE")
-                        .foregroundColor(.avoWhite)
+                        .foregroundColor(.primaryText)
                         .font(.system(size: 32, weight: .bold, design: .rounded))
                     Spacer()
                 }

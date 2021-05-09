@@ -21,7 +21,7 @@ struct ActionButtonView: View {
                     .frame(width: 83, height: 83)
                     .background(
                         Rectangle()
-                            .fill(Color.avoMediumPurple)
+                            .fill(Color.secondaryBackground)
                             .cornerRadius(30.0)
                     )
                 
