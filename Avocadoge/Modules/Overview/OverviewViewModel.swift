@@ -9,5 +9,5 @@ import Foundation
 import SwiftUI
 
 class OverviewViewModel: ObservableObject {
-    @Published var welcomeMessage: LocalizedStringKey = "WELCOME_MESSAGE"
+    
 }

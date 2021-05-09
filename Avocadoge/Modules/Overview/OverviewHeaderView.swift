@@ -21,13 +21,6 @@ struct OverviewHeaderView: View {
                         .foregroundColor(.avoPurple)
                 }
             }
-            
-            HStack {
-                Text(viewModel.welcomeMessage)
-                    .foregroundColor(.avoPurple)
-                    .font(.system(size: 16, weight: .regular, design: .rounded))
-                Spacer()
-            }
         }
         .padding([.top, .leading, .trailing])
     }

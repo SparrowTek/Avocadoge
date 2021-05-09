@@ -13,7 +13,6 @@
 "STORE" = "Store";
 
 // MARK: Overview
-"WELCOME_MESSAGE" = "Welcome Back, Thomas!";
 "WALLET_OVERVIEW" = "Wallet Overview";
 "DOGECOIND" = "Dogecoin";
 "DEFAULT" = "DEFAULT";
